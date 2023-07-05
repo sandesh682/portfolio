@@ -3,6 +3,7 @@ const navBtn = document.querySelector("#nav-btn");
 const closeBtn = document.querySelector("#close-btn");
 const sidebar = document.querySelector("#sidebar");
 const date = document.querySelector("#date");
+const experience = document.getElementById("experience");
 // add fixed class to navbar
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 80) {
@@ -20,3 +21,4 @@ closeBtn.addEventListener("click", function () {
 });
 // set year
 date.innerHTML = new Date().getFullYear();
+experience.innerText = new Date().getFullYear() - 2019;

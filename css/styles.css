@@ -493,6 +493,11 @@ Projects
   max-width: 30rem;
   margin: 0 auto;
 }
+
+.margin-top-small {
+  margin-top: 1rem;
+}
+
 .project {
   position: relative;
   background: var(--clr-primary-5);
