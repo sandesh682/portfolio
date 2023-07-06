@@ -78,7 +78,7 @@ img:not(.nav-logo) {
   display: block;
 }
 .nav-logo {
-  height: 60px
+  height: 60px;
 }
 
 h1,
@@ -563,7 +563,7 @@ Projects
 }
 
 .project-image {
-  height: 21rem;
+  max-height: 20rem;
 }
 @media screen and (min-width: 676px) {
   .projects-center {
