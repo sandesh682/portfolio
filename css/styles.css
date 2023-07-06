@@ -216,6 +216,13 @@ Navbar
   cursor: pointer;
   justify-self: end;
 }
+.logo-text {
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  color: inherit;
+}
+.logo-sirname {
+  color: var(--clr-primary-5);
+}
 @media screen and (min-width: 768px) {
   .nav {
     background: var(--clr-primary-10);
@@ -550,6 +557,10 @@ Projects
   opacity: 1;
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
+}
+
+.project-image {
+  height: 21rem;
 }
 @media screen and (min-width: 676px) {
   .projects-center {
